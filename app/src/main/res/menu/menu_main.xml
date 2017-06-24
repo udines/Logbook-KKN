@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hackerman.kkn.main.MainActivity">
+    <item
+        android:id="@+id/action_semua"
+        android:orderInCategory="100"
+        android:title="Semua"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tema"
+        android:orderInCategory="100"
+        android:title="Tema"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_non_tema"
+        android:orderInCategory="100"
+        android:title="Non Tema"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bantu_tema"
+        android:orderInCategory="100"
+        android:title="Bantu Tema"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_non_program"
+        android:orderInCategory="100"
+        android:title="Non Program"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hackerman.kkn.input.InputActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_input">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul"
+        android:id="@+id/input_judul"
+        android:inputType="textCapWords"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Uraian Program"
+        android:id="@+id/input_uraian"
+        android:inputType="textCapSentences"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peserta"
+        android:id="@+id/input_peserta"
+        android:inputType="textCapSentences"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode"
+        android:id="@+id/input_kode"
+        android:maxLines="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/input_tanggal"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:entries="@array/program_array"
+            android:id="@+id/input_kategori"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/input_start_time"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:text="Start time"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/input_end_time"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:text="End time"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "182191384989",
+    "firebase_url": "https://kkn-ppm.firebaseio.com",
+    "project_id": "kkn-ppm",
+    "storage_bucket": "kkn-ppm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182191384989:android:c452af2ea91f4f9a",
+        "android_client_info": {
+          "package_name": "com.hackerman.kkn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182191384989-68svuj9434u0t1a6101inbdse0lhidup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackerman.kkn",
+            "certificate_hash": "d1cfb2fdccc3483294b24d310f4d9d615d693455"
+          }
+        },
+        {
+          "client_id": "182191384989-3mi2a6n4ks54l3kpcjgln8mess313csn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxqyagubyXC0bseKaNxbbJ_py03xauFJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182191384989-3mi2a6n4ks54l3kpcjgln8mess313csn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
